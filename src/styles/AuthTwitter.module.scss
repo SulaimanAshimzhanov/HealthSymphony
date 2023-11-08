@@ -1,0 +1,37 @@
+
+
+.twit {
+    display:flex;
+    justify-content: center;
+
+    .twitter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        border: 0;
+        outline: 0;
+        border-radius: 100px;
+        background-color: rgb(105, 103, 103);
+        color: white;
+        width: 55px;
+        height: 55px;
+        box-shadow: 0 0 5px white;
+        cursor: pointer;
+        transition: .5s;
+
+        &:hover {
+            box-shadow: 0 0 15px white;
+            background-color: white;
+        }
+    
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    
+        p {
+            font-size: 13px;
+        }
+    }
+}

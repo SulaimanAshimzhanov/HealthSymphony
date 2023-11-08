@@ -1,0 +1,51 @@
+.service_wrapper {
+    margin-top: 50px;
+
+    h1 {
+        color: white;
+        font-size: 40px;
+    }
+
+    &_lists {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .lists {
+            h2 {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: white;
+                img {
+                    width: 18%;
+                }
+            }
+
+            .dot_clas {
+                display: flex;
+                align-items: center;
+                gap: 17px;
+
+                .dot {
+                    width: 9px;
+                    height: 7px;
+                    background-color: rgb(12, 230, 193);
+                    border-radius: 100px;
+                    box-shadow: 0 0 10px rgb(12, 230, 193);
+                }
+
+                p {
+                    color: white;
+                    font-size: 18px;
+                    cursor: pointer;
+                    opacity: .7;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

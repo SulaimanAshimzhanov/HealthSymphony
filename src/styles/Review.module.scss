@@ -1,0 +1,82 @@
+.message {
+    margin-top: 150px;
+    width: 670px;
+    height: 140px;
+    background-color: rgb(10, 10, 26);
+    border-radius: 10px;
+    padding: 1px 20px 10px 20px;
+    box-shadow: 0 0 10px gray;
+
+    h1 {
+        color: white;
+    }
+
+    .row_message {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        input {
+            width: 400px;
+            padding: 14px 15px;
+            font-size: 17px;
+            border-radius: 15px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid gray;
+            outline: 0;
+        }
+
+        button {
+            width: 180px;
+            padding: 15px 0;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: rgb(109, 182, 192);
+            color: white;
+            font-size: 18px;
+            outline: 0;
+            transition: .5s;
+
+            &:hover {
+                box-shadow: 0 0 10px rgb(109, 182, 192);
+            }
+        }
+    }
+}
+
+.message_keep {
+    margin-top: 20px;
+    background-color: rgb(139, 127, 111);
+    border-radius: 10px;
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+    overflow: scroll;
+
+    h2 {
+        color: white;
+    }
+
+    .review {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(63, 59, 59);
+        width: 80%;
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+
+        li {
+            color: white;
+            font-size: 30px;
+        }
+
+        svg {
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    }
+}

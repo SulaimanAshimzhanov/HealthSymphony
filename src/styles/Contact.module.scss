@@ -1,0 +1,59 @@
+.contact_wrapper {
+    margin-top: 80px;
+
+    h1 {
+        color: white;
+        font-size: 30px;
+    }
+
+    &_card {
+        display: flex;
+        align-items: center;
+        gap: 230px;
+
+        .card_container {
+            h3 {
+                color: white;
+                font-size: 23px;
+            }
+
+            a {
+                color: rgb(42, 86, 182);
+                font-size: 25px;
+            }
+        }
+    }
+
+    &_content {
+        margin-top: 80px;
+
+        .content_card {
+            display: flex;
+            align-items: center;
+            gap: 230px;
+
+            .card_one {
+                h3 {
+                    color: white;
+                    font-size: 22px;
+                }
+
+                p {
+                    color: white;
+                    background-color: rgb(31, 30, 30);
+                    width: 100%;
+                    font-size: 18px;
+                }
+            }
+
+            .card_two {
+                p {
+                    color: white;
+                    background-color: rgb(31, 30, 30);
+                    width: 100%;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

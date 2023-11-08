@@ -1,0 +1,107 @@
+header {
+    padding: 20px 0;
+
+    .header_side {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 200px;
+            height: 80px;
+        }
+
+        &_lists {
+            
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 70px;
+
+                li {
+                    font-size: 30px;
+
+                    a {
+                        color: white;
+                    }
+                }
+            }
+
+        }
+
+        &_icon {
+            display: flex;
+            gap: 30px;
+
+            .icons {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                }
+    
+                
+            }
+
+            .icon_row {
+                
+                p {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    svg {
+                        font-size: 40px;
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .button_row {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                button {
+                    a {
+                        color: white;
+                    }
+
+                    width: 120px;
+                    padding: 8px 0;
+                    background-color: transparent;
+                    border: 1px solid gray;
+                    color: white;
+                    cursor: pointer;
+                    outline: 0;
+
+                    &:hover {
+                        color: rgb(109, 182, 192);
+                        border: 1px solid rgb(109, 182, 192);
+
+                        a {
+                            color: rgb(109, 182, 192);
+                        }
+                    }
+                }
+
+                & button:nth-child(1) {
+                    border-bottom-left-radius: 10px;
+                    border-top-left-radius: 10px;
+                }
+
+                & button:nth-child(2) {
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+                
+            }
+
+            
+        }
+    }
+}
